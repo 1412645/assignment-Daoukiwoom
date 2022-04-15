@@ -1,0 +1,25 @@
+
+.MuiFormControl-root .MuiInputBase-root {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #CFE5FF;
+}
+
+.MuiFormControl-root .MuiInputBase-root::before,
+.MuiFormControl-root .MuiInputBase-root::after {
+  border: none;
+}
+
+.MuiFormControl-root .MuiInputBase-root:hover {
+  border: none;
+}
+
+.MuiFormControl-root .MuiInputBase-root:hover:not(.Mui-disabled):before {
+  border: none;
+}
+
+.MuiFormControl-root .MuiSvgIcon-root {
+  color: #ffffff;
+}
